@@ -32,3 +32,58 @@ nav ul ul li{
     display: block;
     float: none;
 }
+
+.cartas{
+    padding: 110px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+
+.card{
+    width: 35rem;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 45px;
+}
+
+.card-img-top{
+    border-radius: 35px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border-radius: 35px;
+}
+
+.btn{
+    color: white;
+    font-size: 45px;
+    padding: 20px;
+    margin-left: 50px;
+    background-color: #6A1E55;
+    border-radius: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+/* la cosa esta que porfin funciona*/
+#losputosbotones{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#losputosbotones a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}

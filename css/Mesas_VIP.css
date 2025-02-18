@@ -90,7 +90,6 @@ nav ul ul li{
     align-items: center;
     margin-top: 20px;
 }
-
 /* la cosa esta que porfin funciona*/
 #losputosbotones{
     display: flex;
@@ -98,7 +97,11 @@ nav ul ul li{
     justify-content: center;
 }
 
+#losputosbotones a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn:hover{
     transform: scale(1.1);
 }
-

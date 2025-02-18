@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap');
+
 body{
     background-color: #1A1A1D;
 }
+
+/*menú*/
 .nav justify-content-center{
     display: block;
      float: none;
@@ -32,6 +36,14 @@ nav ul ul li{
     display: block;
     float: none;
 }
+ /*cuerpo de la pagina*/
+.infor h1{
+    color: azure;
+    font-family: New Amsterdam;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 65px;
+}
 .cartas{
     padding: 110px;
     display: flex;
@@ -55,5 +67,4 @@ nav ul ul li{
 
 .card:hover{
     transform: scale(1.1);
-    border-radius: 35px;
 }

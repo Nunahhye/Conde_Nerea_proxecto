@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=New+Amsterdam&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch&display=swap');
+
 body{
-    background-color: #1A1A1D;
+    margin: 0;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url(../fotos/foto_index.png);
+    background-size: cover; /* Hace que la imagen cubra todo el body */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
 }
 .nav justify-content-center{
     display: block;
@@ -31,4 +38,45 @@ nav ul li a:hover{
 nav ul ul li{
     display: block;
     float: none;
+}
+
+footer{
+    color: azure;
+    font-family: New Amsterdam;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+.presentacion{
+    color: #AA60C8;
+    font-family: New Amsterdam;
+    margin: 60px;
+}
+
+.presentacion h1{
+    text-align: center;
+    font-size: 110px;
+    margin-top: 65px;
+    
+}
+
+.presentacion p{
+    text-align: center;
+    font-size: 90px;
+    margin-top: 65px;
+}
+
+.redes{
+     color: #D69ADE;
+    font-family: New Amsterdam;
+    font-size: 50px;
+    text-align: center;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
 }
