@@ -4,11 +4,11 @@
 
 body{
     margin: 0;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
+    height: 100vh; 
     background-image: url(../fotos/foto_index.png);
-    background-size: cover; /* Hace que la imagen cubra todo el body */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita repeticiones */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 .nav justify-content-center{
     display: block;

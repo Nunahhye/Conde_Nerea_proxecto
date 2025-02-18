@@ -42,7 +42,7 @@ nav ul ul li{
 
 .contacto h1{
     text-align: center;
-    font-size: 110px;
+    font-size: 90px;
     margin-top: 65px;
 }
 
@@ -54,8 +54,9 @@ nav ul ul li{
 .quejas{
     color: azure;
     font-family: New Amsterdam;
-    font-size: 95px;
+    font-size: 65px;
     margin-top: 65px;
+    padding: 20px;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
