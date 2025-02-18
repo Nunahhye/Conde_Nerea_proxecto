@@ -3,6 +3,7 @@
 body{
     background-color: #1A1A1D;
 }
+/*menú*/
 .nav justify-content-center{
     display: block;
      float: none;
@@ -32,7 +33,7 @@ nav ul ul li{
     display: block;
     float: none;
 }
-
+/*cuerpo de la pagina*/
 .cartas{
     padding: 110px;
     display: flex;
@@ -45,17 +46,13 @@ nav ul ul li{
     width: 35rem;
     background-color: transparent;
     border: none;
+    padding: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
     margin-right: 45px;
 }
 
 .card-img-top{
-    border-radius: 35px;
-}
-
-.card:hover{
-    transform: scale(1.1);
     border-radius: 35px;
 }
 
@@ -86,4 +83,14 @@ nav ul ul li{
 
 .btn:hover{
     transform: scale(1.1);
+}
+
+#texto{
+   z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 0px;
 }

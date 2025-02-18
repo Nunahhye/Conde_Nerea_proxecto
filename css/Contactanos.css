@@ -5,6 +5,7 @@
 body{
     background-color:  #1A1A1D;
 }
+/*menú*/
 .nav justify-content-center{
     display: block;
      float: none;
@@ -34,7 +35,7 @@ nav ul ul li{
     display: block;
     float: none;
 }
-
+/*cuerpo de la pagina*/
 .contacto{
     color: azure;
      font-family: New Amsterdam;

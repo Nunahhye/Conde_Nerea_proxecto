@@ -10,6 +10,7 @@ body{
     background-position: center; 
     background-repeat: no-repeat; 
 }
+/*menú*/
 .nav justify-content-center{
     display: block;
      float: none;
@@ -39,7 +40,7 @@ nav ul ul li{
     display: block;
     float: none;
 }
-
+/*cuerpo de la pagina*/
 footer{
     color: azure;
     font-family: New Amsterdam;
