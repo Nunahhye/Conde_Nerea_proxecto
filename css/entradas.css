@@ -38,6 +38,7 @@ nav ul ul li{
     padding: 110px;
     display: flex;
     flex-wrap:wrap;    
+    justify-content: center;
 }
 
 .card{
@@ -50,4 +51,14 @@ nav ul ul li{
 .card-img-top{
     border-radius: 35px;
 
+}
+
+.comprar_entrada{
+    color: aliceblue;
+}
+
+.aviso{
+     text-align: center;
+    font-size: 110px;
+    margin-top: 65px;
 }
