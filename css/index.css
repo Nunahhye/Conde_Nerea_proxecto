@@ -5,7 +5,7 @@
 body{
     margin: 0;
     height: 100vh; 
-    background-image: url(../fotos/foto_index.png);
+    background-image: url(/fotos/foto_index.jpg);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
