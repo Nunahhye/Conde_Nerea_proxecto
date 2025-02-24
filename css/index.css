@@ -31,7 +31,7 @@ nav ul li{
 }
 
 nav ul li a:hover{
-    background-color: #D7BBF5; 
+    background-color: #A64D79; 
     border-radius: 150px;
     
 }
@@ -41,10 +41,11 @@ nav ul ul li{
     float: none;
 }
 /*cuerpo de la pagina*/
+
+/*redes sociales*/
 footer{
     color: azure;
     font-family: New Amsterdam;
-    font-size: 50px;
     text-align: center;
     background-color: transparent;
     position: absolute;
@@ -53,8 +54,9 @@ footer{
     height: 40px;
 }
 
+/*Texto de entrada */
 .presentacion{
-    color: #AA60C8;
+    color: #EABDE6;
     font-family: New Amsterdam;
     margin: 60px;
 }
