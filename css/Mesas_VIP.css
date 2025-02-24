@@ -6,12 +6,11 @@ body{
     background-color: #1A1A1D;
     
 }
-/*menú*/
+/*menú, en teoria el logo sirve como un boton que lleva de vuelta al inicio*/
 .nav justify-content-center{
     display: block;
      float: none;
 }
-
 .nav-item{
     flex-grow: 1px;
     align-items: center;
@@ -37,28 +36,17 @@ nav ul ul li{
     float: none;
 }
 /*cuerpo de la pagina*/
+
+/*TEXTO DEL INIICO*/
 .informacion_reservas_vip{
     color: azure;
      font-family: New Amsterdam;
 }
 
-.informacion_reservas_vip h1{
+.informacion_reservas_vip h1 ,h2{
     text-align: center;
     font-size: 110px;
     margin-top: 65px;
-}
-
-.informacion_reservas_vip h2{
-    text-align: center;
-    font-size: 75px;
-}
-
-.cartas{
-    padding: 110px;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    
 }
 
 .card{
@@ -70,15 +58,28 @@ nav ul ul li{
     margin-right: 45px;
 }
 
+.cartas{
+    padding: 110px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
 .card-img-top{
     border-radius: 35px;
 }
 
-.card:hover{
-    transform: scale(1.1);
-    border-radius: 35px;
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+.video{
+    width: 300px;
+    margin-left: 10px; 
+}
+/*Al final solo fue un botón */
 .btn{
     color: white;
     font-size: 45px;
