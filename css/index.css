@@ -41,18 +41,17 @@ nav ul ul li{
     float: none;
 }
 /*cuerpo de la pagina*/
-
-/*redes sociales*/
 footer{
     color: azure;
     font-family: New Amsterdam;
     background-color: transparent;
-    position: relative; 
+    position: fixed; 
     text-align: center;
     font-size: 85px;
-    bottom: 0;
+    bottom: 5%;
     width: 100%;
     height: 40px;
+    
 }
 
 /*Texto de entrada */
