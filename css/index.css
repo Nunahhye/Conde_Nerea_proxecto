@@ -5,7 +5,7 @@
 html, body{
     margin: 0;
     height: 100%; 
-    background-image: url(/fotos/foto_index.jpg);
+    background-image: url(/fotos/index.png);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -56,7 +56,7 @@ footer{
 
 /*Texto de entrada */
 .presentacion{
-    color: #EABDE6;
+    color: #629584;
     font-family: New Amsterdam;
     margin: 60px;
 }
@@ -65,11 +65,6 @@ footer{
     text-align: center;
     font-size: 110px;
     margin-top: 65px;
-    
+    box-shadow: 15px 15px 15px #629584;
 }
 
-.presentacion p{
-    text-align: center;
-    font-size: 90px;
-    margin-top: 65px;
-}
